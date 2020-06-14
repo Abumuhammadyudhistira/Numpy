@@ -1,0 +1,34 @@
+1. Numpy Arrays
+	list = [1,2,3]
+	np.array(list) => array([1,2,3]) # Vector
+	mat = [[1,2,3],[4,5,6]] # matrices
+	
+	np.arange() # (from,until,step)
+	np.zeros() # (row,column)
+	np.ones() # (row,column)
+	np.linspace() # (from,until,div)
+	np.eye() # matrix identity
+	np.random.randn() # (row,column) around 0
+	.reshape()
+	.max()
+	.min()
+	.argmax() # location of value
+	.shape
+	
+	
+2. Numpy Indexing and Selection
+	arr = np.arange(0,11)
+	arr => array([0,1,2,3,4,5,6,7,8,9,10])
+	arr[from:until]
+	arr.copy()
+	
+	arr_2d = np.array([[1,2,3],[4,5,6],[7,8,9]])
+	arr_2d[2][1] => 7 => arr_2d[row][column]
+	arr[boolean]
+
+3. Numpy Operator
+	arr + arr # * / + - #beware of 0 division
+	np.sqrt()
+	np.exp()
+	np.sin()
+	np.log()
